@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/botMenuHome"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/botMenuDonasi"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_escalator_warning_24"
+        android:title="Donasi"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/botMenuNotifikasi"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notifikasi"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/botMenuProfile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>
